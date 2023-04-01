@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9e56e9a798.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="hero__text">
+      <h1 class="hero__heading">Learn to code by watching others</h1>
+      <p class="hero__p">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+      but understanding how developers think is invaluable.</p>
+    </div>
+
+    <!-- form section -->
+    <div class="hero__form">
+      <button type="submit" class="btn clr--purple"><span class="bold">Try it free 7 days</span>then $20/mo. thereafter</button>
+      <form class="form">
+        <!-- first Name -->
+        <div class="input-group">
+          <label for="first-name"></label>
+          <input type="text" id="first-name" name="first-name" placeholder="First Name">
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <p class="p">Error Message</p>
+        </div>
+        <!-- Last Name -->
+        <div class="input-group">
+          <label for="last-name"></label>
+          <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <p class="p">Error Message</p>
+        </div>
+        <!-- Email Address -->
+        <div class="input-group">
+          <label for="email"></label>
+          <input type="email" id="email" name="email" placeholder="Email Address">
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <p class="p">Error Message</p>
+        </div>
+        <!-- Password -->
+        <div class="input-group">
+          <label for="password"></label>
+          <input type="password" id="password" name="password" placeholder="Password">
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <p class="p">Error Message</p>
+        </div>
+
+        <button type="submit" class="btn clr--green">Claim your free trial</button>
+        <p class="terms">By clicking the button, you are agreeing to our
+          <span class="red">Terms and Services</span></p>
+      </form>
+    </div>
+  </main>
+
+   
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">London Joe</a>.
+    </p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
